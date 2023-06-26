@@ -94,5 +94,27 @@ do {
 
 }while(number < 10);
 
-console.log(number); 
+console.log(number);
+console.log('----------------------------')
+/**
+ * break
+ */
+for(let i = 0 ; i < 10 ; i++) {
 
+    if(i === 5) {
+        break;
+    }
+    console.log(i);
+}
+
+/**
+ * continue
+ */
+console.log('----------------------------')
+for(let i = 0 ; i < 10 ; i++) {
+
+    if(i === 5) {
+        continue;
+    }
+    console.log(i);
+}
